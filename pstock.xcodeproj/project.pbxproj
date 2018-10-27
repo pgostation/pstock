@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12724AD51C5112B0002CB35B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724AD41C5112B0002CB35B /* main.c */; };
+		1204A6471C63A96A0002CE1F /* strLbacktestInit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1204A6431C63A96A0002CE1F /* strLbacktestInit.c */; };
+		1204A6481C63A96A0002CE1F /* strLbacktestRun.c in Sources */ = {isa = PBXBuildFile; fileRef = 1204A6451C63A96A0002CE1F /* strLbacktestRun.c */; };
+		12724AD51C5112B0002CB35B /* openmpSample.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724AD41C5112B0002CB35B /* openmpSample.c */; };
+		12724ADD1C511840002CB35B /* libiomp5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 12724ADC1C511840002CB35B /* libiomp5.dylib */; };
+		12724AE01C53891A002CB35B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724ADE1C53891A002CB35B /* main.c */; };
+		12724AE31C53894D002CB35B /* xmapString.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724AE11C53894D002CB35B /* xmapString.c */; };
+		12724B2D1C54B0AA002CB35B /* strMdata.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724B2B1C54B0AA002CB35B /* strMdata.c */; };
+		12724B321C54B1D5002CB35B /* strMsignal.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724B301C54B1D5002CB35B /* strMsignal.c */; };
+		12724B351C54B1E2002CB35B /* strMbacktest.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724B331C54B1E2002CB35B /* strMbacktest.c */; };
+		12724B391C565152002CB35B /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724B371C565152002CB35B /* calc.c */; };
+		12724B3C1C57A536002CB35B /* strMdataBinary.c in Sources */ = {isa = PBXBuildFile; fileRef = 12724B3A1C57A536002CB35B /* strMdataBinary.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1204A6431C63A96A0002CE1F /* strLbacktestInit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strLbacktestInit.c; path = pstock/strLbacktestInit.c; sourceTree = "<group>"; };
+		1204A6441C63A96A0002CE1F /* strLbacktestInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strLbacktestInit.h; path = pstock/strLbacktestInit.h; sourceTree = "<group>"; };
+		1204A6451C63A96A0002CE1F /* strLbacktestRun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strLbacktestRun.c; path = pstock/strLbacktestRun.c; sourceTree = "<group>"; };
+		1204A6461C63A96A0002CE1F /* strLbacktestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strLbacktestRun.h; path = pstock/strLbacktestRun.h; sourceTree = "<group>"; };
 		12724AD11C5112B0002CB35B /* pstock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pstock; sourceTree = BUILT_PRODUCTS_DIR; };
-		12724AD41C5112B0002CB35B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		12724AD41C5112B0002CB35B /* openmpSample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = openmpSample.c; sourceTree = "<group>"; };
+		12724ADB1C51156B002CB35B /* _todo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _todo.h; sourceTree = "<group>"; };
+		12724ADC1C511840002CB35B /* libiomp5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiomp5.dylib; path = ../../../../../usr/local/Cellar/libiomp/20150701/lib/libiomp5.dylib; sourceTree = "<group>"; };
+		12724ADE1C53891A002CB35B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		12724ADF1C53891A002CB35B /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		12724AE11C53894D002CB35B /* xmapString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmapString.c; sourceTree = "<group>"; };
+		12724AE21C53894D002CB35B /* xmapString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmapString.h; sourceTree = "<group>"; };
+		12724B2B1C54B0AA002CB35B /* strMdata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strMdata.c; sourceTree = "<group>"; };
+		12724B2C1C54B0AA002CB35B /* strMdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strMdata.h; sourceTree = "<group>"; };
+		12724B301C54B1D5002CB35B /* strMsignal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strMsignal.c; sourceTree = "<group>"; };
+		12724B311C54B1D5002CB35B /* strMsignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strMsignal.h; sourceTree = "<group>"; };
+		12724B331C54B1E2002CB35B /* strMbacktest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strMbacktest.c; sourceTree = "<group>"; };
+		12724B341C54B1E2002CB35B /* strMbacktest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strMbacktest.h; sourceTree = "<group>"; };
+		12724B371C565152002CB35B /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
+		12724B381C565152002CB35B /* calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calc.h; sourceTree = "<group>"; };
+		12724B3A1C57A536002CB35B /* strMdataBinary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strMdataBinary.c; sourceTree = "<group>"; };
+		12724B3B1C57A536002CB35B /* strMdataBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strMdataBinary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,15 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12724ADD1C511840002CB35B /* libiomp5.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1204A63C1C5ED2A40002CE1F /* strL */ = {
+			isa = PBXGroup;
+			children = (
+				1204A6431C63A96A0002CE1F /* strLbacktestInit.c */,
+				1204A6441C63A96A0002CE1F /* strLbacktestInit.h */,
+				1204A6451C63A96A0002CE1F /* strLbacktestRun.c */,
+				1204A6461C63A96A0002CE1F /* strLbacktestRun.h */,
+			);
+			name = strL;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		12724AC81C5112B0002CB35B = {
 			isa = PBXGroup;
 			children = (
+				12724ADC1C511840002CB35B /* libiomp5.dylib */,
 				12724AD31C5112B0002CB35B /* pstock */,
 				12724AD21C5112B0002CB35B /* Products */,
 			);
@@ -57,9 +101,49 @@
 		12724AD31C5112B0002CB35B /* pstock */ = {
 			isa = PBXGroup;
 			children = (
-				12724AD41C5112B0002CB35B /* main.c */,
+				12724ADE1C53891A002CB35B /* main.c */,
+				12724ADF1C53891A002CB35B /* main.h */,
+				12724AD41C5112B0002CB35B /* openmpSample.c */,
+				12724ADB1C51156B002CB35B /* _todo.h */,
+				12724B361C565140002CB35B /* calc */,
+				12724B2E1C54B1B3002CB35B /* strM */,
+				1204A63C1C5ED2A40002CE1F /* strL */,
+				12724B2F1C54B1BD002CB35B /* util */,
 			);
 			path = pstock;
+			sourceTree = "<group>";
+		};
+		12724B2E1C54B1B3002CB35B /* strM */ = {
+			isa = PBXGroup;
+			children = (
+				12724B2B1C54B0AA002CB35B /* strMdata.c */,
+				12724B2C1C54B0AA002CB35B /* strMdata.h */,
+				12724B3A1C57A536002CB35B /* strMdataBinary.c */,
+				12724B3B1C57A536002CB35B /* strMdataBinary.h */,
+				12724B301C54B1D5002CB35B /* strMsignal.c */,
+				12724B311C54B1D5002CB35B /* strMsignal.h */,
+				12724B331C54B1E2002CB35B /* strMbacktest.c */,
+				12724B341C54B1E2002CB35B /* strMbacktest.h */,
+			);
+			name = strM;
+			sourceTree = "<group>";
+		};
+		12724B2F1C54B1BD002CB35B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				12724AE11C53894D002CB35B /* xmapString.c */,
+				12724AE21C53894D002CB35B /* xmapString.h */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		12724B361C565140002CB35B /* calc */ = {
+			isa = PBXGroup;
+			children = (
+				12724B371C565152002CB35B /* calc.c */,
+				12724B381C565152002CB35B /* calc.h */,
+			);
+			name = calc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12724AD51C5112B0002CB35B /* main.c in Sources */,
+				12724B351C54B1E2002CB35B /* strMbacktest.c in Sources */,
+				12724AE31C53894D002CB35B /* xmapString.c in Sources */,
+				12724AE01C53891A002CB35B /* main.c in Sources */,
+				12724AD51C5112B0002CB35B /* openmpSample.c in Sources */,
+				1204A6471C63A96A0002CE1F /* strLbacktestInit.c in Sources */,
+				12724B2D1C54B0AA002CB35B /* strMdata.c in Sources */,
+				12724B321C54B1D5002CB35B /* strMsignal.c in Sources */,
+				1204A6481C63A96A0002CE1F /* strLbacktestRun.c in Sources */,
+				12724B3C1C57A536002CB35B /* strMdataBinary.c in Sources */,
+				12724B391C565152002CB35B /* calc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +300,19 @@
 		12724AD91C5112B0002CB35B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CC = "/usr/local/bin/clang-omp";
+				CLANG_ENABLE_MODULES = NO;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libiomp/20150701/lib,
+				);
+				OTHER_CFLAGS = "-fopenmp";
+				OTHER_LDFLAGS = (
+					"-laprutil-1",
+					"-lapr-1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +320,20 @@
 		12724ADA1C5112B0002CB35B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CC = "/usr/local/bin/clang-omp";
+				CLANG_ENABLE_MODULES = NO;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libiomp/20150701/lib,
+				);
+				OTHER_CFLAGS = "-fopenmp";
+				OTHER_LDFLAGS = (
+					"-laprutil-1",
+					"-lapr-1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,6 +357,7 @@
 				12724ADA1C5112B0002CB35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
